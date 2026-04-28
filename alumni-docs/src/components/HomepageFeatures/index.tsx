@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Fácil de usar',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Gestor de alumnis específicamente diseñado para las necesidades de la FCFM.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Enfócate en lo que importa',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Puedes cargar alumnis directamente presionando el botón <b>+</b> en la sección <code>alumnis</code> en la esquina inferior derecha o cargar masivamente desde un archivo csv.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Tu información está segura',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        El gestor cuenta con un sistema de autenticación con JWT, además de contar con encriptación para la información personal de los alumnis.
       </>
     ),
   },
