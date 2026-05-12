@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalumni_docs=self.webpackChunkalumni_docs||[]).push([["355"],{7803(e){e.exports=JSON.parse('{"metadata":{"permalink":"/new-alumni-docs/es/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
